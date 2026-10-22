@@ -1,0 +1,27 @@
+# Xcode
+#
+# gitignore contributors: paste build/bundle outputs here
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# OS
+.DS_Store
+Thumbs.db
